@@ -41,7 +41,7 @@ window.addEventListener("load", function () {
     loader.style.opacity = "0";
     setTimeout(() => {
       loader.style.display = "none";
-    }, 800);
+    }, 800);  
   }, 5000); // <-- durasi total tampil
 });
 
@@ -91,4 +91,3 @@ document.addEventListener("DOMContentLoaded", () => {
   const fadeElements = document.querySelectorAll(".fade-element");
   fadeElements.forEach(el => observer.observe(el));
 });
-
